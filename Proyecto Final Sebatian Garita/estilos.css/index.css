@@ -1,0 +1,115 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f5f3;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #009983;
+  }
+  
+  .logo img {
+    width: 100px; 
+  }
+  
+  h1 {
+    margin-left: 10px;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  ul{
+    background-color: black;
+  }
+  a{
+    background-color: black;
+  }
+  
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .menu-btn span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin-bottom: 6px;
+  }
+  
+  .menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+  }
+  
+  @media (min-width: 769px) {
+    .menu-btn {
+      display: none;
+    }
+  
+    .menu {
+      display: flex;
+    }
+  }
+#main {
+    width: 100%;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+.nuevo{
+    background-color: white;
+    border: 3px solid;
+    border-radius: 9px;}
+
+footer{
+    background-color: #333;
+}
+label{
+  background-color: #333;
+  color: white;
+}
+button{
+    background-color: #243;
+    color: white;
+}
+.contacto{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+p{
+  background-color: white;
+}
+#mas{
+  background-color: #4a4a4a;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
